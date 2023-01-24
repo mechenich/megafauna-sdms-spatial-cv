@@ -1,0 +1,11 @@
+Seed: 58
+Iterations: 1000
+Rows: 4
+Columns: 10
+Tetrominoes: a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s
+Angles: 0, 360
+ID Vector: ../Camelus_Dromedarius/Camelus_Dromedarius_PA_Natural_O30.txt, [ID, .]
+Coordinates: ../ISEA3H09_Geodetic_Centroids.txt, [ID, X, Y]
+Pickled Tetrominoes: ../Camelus_Dromedarius/Camelus_Dromedarius_Tetrominoes_4x10_All.pkl
+Tetromino Counts: ../Camelus_Dromedarius/Camelus_Dromedarius_Tetrominoes_Counts_4x10_All.txt
+Spatial Folds: ../Camelus_Dromedarius/Camelus_Dromedarius_Folds_S10_Natural_O30.txt
