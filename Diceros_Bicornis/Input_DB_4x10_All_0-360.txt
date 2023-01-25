@@ -1,0 +1,11 @@
+Seed: 1941
+Iterations: 1000
+Rows: 4
+Columns: 10
+Tetrominoes: a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s
+Angles: 0, 360
+ID Vector: ../Diceros_Bicornis/Diceros_Bicornis_PA_Natural_O20.txt, [ID, .]
+Coordinates: ../ISEA3H09_Geodetic_Centroids.txt, [ID, X, Y]
+Pickled Tetrominoes: ../Diceros_Bicornis/Diceros_Bicornis_Tetrominoes_4x10_All.pkl
+Tetromino Counts: ../Diceros_Bicornis/Diceros_Bicornis_Tetrominoes_Counts_4x10_All.txt
+Spatial Folds: ../Diceros_Bicornis/Diceros_Bicornis_Folds_S10_Natural_O20.txt
