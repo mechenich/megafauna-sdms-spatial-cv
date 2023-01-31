@@ -1,0 +1,11 @@
+Seed: 39
+Iterations: 1000
+Rows: 4
+Columns: 10
+Tetrominoes: a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s
+Angles: 0, 360
+ID Vector: Equus_Africanus/Equus_Africanus_PA_Natural_O11.txt, [ID, .]
+Coordinates: ISEA3H09_Geodetic_Centroids.txt, [ID, X, Y]
+Pickled Tetrominoes: Equus_Africanus/Equus_Africanus_Tetrominoes_4x10_All.pkl
+Tetromino Counts: Equus_Africanus/Equus_Africanus_Tetrominoes_Counts_4x10_All.txt
+Spatial Folds: Equus_Africanus/Equus_Africanus_Folds_S10_Natural_O11.txt
