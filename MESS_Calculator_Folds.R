@@ -100,18 +100,32 @@ for (i in iterations) {
 si.results <- data.frame(Feature = feature.set,
                          R = r.set,
                          S = s.set,
+                         R.Frequency = 0.0,
+                         S.Frequency = 0.0,
                          SI.Mean = apply(si.mean, 2, mean),
                          SI.P.Mean = apply(si.p.mean, 2, mean),
                          SI.Min = apply(si.min, 2, mean),
                          SI.P.Min = apply(si.p.min, 2, mean))
 
-r.means <- c("R.Mean", FALSE, FALSE,
+for (f in si.results[si.results$R, "Feature"]) {
+    si.results[si.results$Feature == f, "R.Frequency"] <- f.sets[f.sets$CV == "R" &
+                                                                 f.sets$Feature.Short == f,
+                                                                 "Frequency"]
+}
+
+for (f in si.results[si.results$S, "Feature"]) {
+    si.results[si.results$Feature == f, "S.Frequency"] <- f.sets[f.sets$CV == "S" &
+                                                                 f.sets$Feature.Short == f,
+                                                                 "Frequency"]
+}
+
+r.means <- c("R.Mean", FALSE, FALSE, 0.0, 0.0, 
              mean(si.results[si.results$R, "SI.Mean"]),
              mean(si.results[si.results$R, "SI.P.Mean"]),
              mean(si.results[si.results$R, "SI.Min"]),
              mean(si.results[si.results$R, "SI.P.Min"]))
 
-s.means <- c("S.Mean", FALSE, FALSE,
+s.means <- c("S.Mean", FALSE, FALSE, 0.0, 0.0,
              mean(si.results[si.results$S, "SI.Mean"]),
              mean(si.results[si.results$S, "SI.P.Mean"]),
              mean(si.results[si.results$S, "SI.Min"]),
