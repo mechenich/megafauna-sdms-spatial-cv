@@ -1,0 +1,11 @@
+Seed: 14
+Iterations: 1000
+Rows: 4
+Columns: 10
+Tetrominoes: a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s
+Angles: 0, 360
+ID Vector: Cervus_Elaphus/Cervus_Elaphus_PA_Natural_O15.txt, [ID, .]
+Coordinates: ISEA3H09_Geodetic_Centroids.txt, [ID, X, Y]
+Pickled Tetrominoes: Cervus_Elaphus/Cervus_Elaphus_Tetrominoes_4x10_All.pkl
+Tetromino Counts: Cervus_Elaphus/Cervus_Elaphus_Tetrominoes_Counts_4x10_All.txt
+Spatial Folds: Cervus_Elaphus/Cervus_Elaphus_Folds_S10_Natural_O15.txt
